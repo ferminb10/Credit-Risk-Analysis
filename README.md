@@ -57,7 +57,7 @@ _____
 ### [BalancedRandomForestClassifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html)
 _____
 
-![BalancedRandomForestClassifier_classification_report](https://user-images.githubusercontent.com/80941606/194734077-32092578-5448-4a1d-b13d-0249227634a7.png)
+![image](https://user-images.githubusercontent.com/107658895/194736234-81e7a32b-f4ce-43b2-8865-675fc243f21d.png)
 
 **Figure 5**: Classification report for the BalancedRandomForestClassifier model.
 _____
@@ -69,14 +69,14 @@ _____
 ### [EasyEnsembleClassifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.EasyEnsembleClassifier.html)
 _____
 
-[There was an error with one or many of the imported libaries, so the table could not be output]
+![image](https://user-images.githubusercontent.com/107658895/194736267-dfc773b5-d3f0-44d6-a0c3-782c894e3055.png)
 
 **Figure 6**: Classification report for the EasyEnsembleClassifier model.
 _____
 
 * **Accuracy Score**: 92.54%
-* **High-Risk Precision Score**: 0.04
-* **High-Risk Recall Score**: 0.67
+* **High-Risk Precision Score**: 0.07
+* **High-Risk Recall Score**: 0.91
 
 ## Summary
 ### Comparison
