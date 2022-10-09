@@ -21,38 +21,38 @@ _____
 ### [SMOTE](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html)
 _____
 
-![SMOTE_classification_report](https://user-images.githubusercontent.com/80941606/194734067-b7c0015c-63f5-4f05-b7fc-7a76ad8fa08e.png)
+![image](https://user-images.githubusercontent.com/107658895/194735985-12b197ac-d445-44cd-ac34-6697bc762042.png)
 
 **Figure 2**: Classification report for the SMOTE model.
 _____
 
-* **Accuracy Score**: 65.15%
+* **Accuracy Score**: 65.8%
 * **High-Risk Precision Score**: 0.01
-* **High-Risk Recall Score**: 0.61
+* **High-Risk Recall Score**: 0.63
 
 ### [ClusterCentroids](https://imbalanced-learn.org/stable/references/generated/imblearn.under_sampling.ClusterCentroids.html)
 _____
 
-![ClusterCentroids_classification_report](https://user-images.githubusercontent.com/80941606/194734071-e00c7f9c-8a88-4fbb-a5cc-32a63166df2b.png)
+![image](https://user-images.githubusercontent.com/107658895/194736178-b0298b82-fc57-4f04-8abd-1947228bbcc3.png)
 
 **Figure 3**: Classification report for the ClusterCentroids model.
 _____
 
-* **Accuracy Score**: 54.44%
+* **Accuracy Score**: 54.42%
 * **High-Risk Precision Score**: 0.01
 * **High-Risk Recall Score**: 0.69
 
 ### [SMOTEENN](https://imbalanced-learn.org/stable/references/generated/imblearn.combine.SMOTEENN.html)
 _____
 
-![SMOTEENN_classification_report](https://user-images.githubusercontent.com/80941606/194734073-0e7cd111-8554-43a1-9ac8-659dbb68147f.png)
+![image](https://user-images.githubusercontent.com/107658895/194736095-47cb3bcf-ee31-4538-8bb4-6cc05d4a9410.png)
 
 **Figure 4**: Classification report for the SMOTEENN model.
 _____
 
-* **Accuracy Score**: 65.51%
+* **Accuracy Score**: 65.65%
 * **High-Risk Precision Score**: 0.01
-* **High-Risk Recall Score**: 0.75
+* **High-Risk Recall Score**: 0.79
 
 ### [BalancedRandomForestClassifier](https://imbalanced-learn.org/stable/references/generated/imblearn.ensemble.BalancedRandomForestClassifier.html)
 _____
