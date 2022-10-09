@@ -83,4 +83,4 @@ _____
 In summary, the EasyEnsembleClassifier model has the highest accuracy, precision, and recall scores as can be seen in the results section. This makes it the ideal model to use for this credit risk analysis project.
 
 ### Recommendation
-The EasyEnsembleClassifier model would be the best to use for credit risk analysis; however, since it high-risk precision score is only 0.07, this would not be high enough for real-world use. Moreover, additional research on how to improve upon these models is required.
+The EasyEnsembleClassifier model provided the highest accuracy for this credit risk analysis; however, it fails to be applicable in the real world since its high-risk precision score is 0.07. More model development will be needed to integrate for this use-case. 
