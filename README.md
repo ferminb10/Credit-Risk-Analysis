@@ -1,11 +1,7 @@
 # Credit-Risk-Analysis
 ## Overview of the Analysis
 ### Purpose
-Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. In this project, different techniques to train and evaluate models with unbalanced classes were employed using the imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
-
-Specifically, using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, the data was oversampled using the RandomOverSampler and SMOTE algorithms, undersampled using the ClusterCentroids algorithm, and over- and undersampled using the SMOTEENN algorithm. Then, two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were compared to predict credit risk.
-
-The purpose of this analysis was to evaluate the performance of these models and make a written recommendation on whether or not they should be used to predict credit risk.
+We're tasked by the client to apply machine learning to solve credit risk as an unbalanced classification problem. In this project, different techniques to train and evaluate models with unbalanced classes were employed using the imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. The credit card credit dataset from LendingClub, a peer-to-peer lending services company, the data was oversampled using the RandomOverSampler and SMOTE algorithms, undersampled using the ClusterCentroids algorithm, and over- and undersampled using the SMOTEENN algorithm. Then, two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were compared to predict credit risk. The analysis provided directional feedback to make a recommendation on whether or not they should be used to predict credit risk.
 
 ## Results
 The results of the accuracy, precision, and recall scores of all six machine learning models are summarized below. For the first four machine learning models, please refer to the credit_risk_resampling.ipynb file for more details. For the last two machine learning models, please refer to the credit_risk_ensemble.ipynb file for more details.
@@ -13,14 +9,14 @@ The results of the accuracy, precision, and recall scores of all six machine lea
 ### [RandomOverSampler](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.RandomOverSampler.html)
 _____
 
-![RandomOverSampler_classification_report](https://user-images.githubusercontent.com/80941606/194734060-e8bb6946-e049-4a78-a94e-cdd37ed6b54d.png)
+![image](https://user-images.githubusercontent.com/107658895/194735894-408346a8-aa8a-4339-b823-a9e37c7aabfb.png)
 
 **Figure 1**: Classification report for the RandomOverSampler model.
 _____
 
-* **Accuracy Score**: 64.03%
+* **Accuracy Score**: 62.2%
 * **High-Risk Precision Score**: 0.01
-* **High-Risk Recall Score**: 0.66
+* **High-Risk Recall Score**: 0.65
 
 ### [SMOTE](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html)
 _____
